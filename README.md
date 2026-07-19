@@ -2,7 +2,13 @@
 
 Landing page de una sola página para **La Semilla Roja**, restaurante de cochinita pibil en Ciudad de México (fundado en 2012, sucursales en Coyoacán e Iztapalapa/Sinatel). Este sitio está pensado como reemplazo de lasemillaroja.com.mx. Archivo único (`index.html`), sin frameworks ni build step — solo HTML, CSS y JS inline, más las fuentes de Google Fonts (Playfair Display + Poppins). El logo del header (`logo.webp`), la foto del hero (`semillas.jpg`, comprimida desde el `semillas.png` original de 2.2 MB a ~195 KB con calidad JPEG 82, sin pérdida visible), la galería (`lasemillaroja27.jpg.webp`–`lasemillaroja32.jpg.webp`) y las fotos de fachada en "Ubicación" (`sucursal-coyoacan.jpg.webp`, `sucursal-sinatel.jpg.webp`) son todas reales, tomadas de lasemillaroja.com.mx.
 
-## Ver el sitio
+## En vivo
+
+- **Producción:** https://la-semilla-roja.vercel.app
+- **Repositorio:** https://github.com/ricardomendozanh1-source/la-semilla-roja
+- Desplegado en Vercel, conectado al repo de GitHub — cada `git push` a `main` puede volver a desplegarse desde el dashboard de Vercel (o automáticamente si activas los despliegues por Git en el proyecto).
+
+## Ver el sitio en local
 
 ```powershell
 ./serve.ps1
